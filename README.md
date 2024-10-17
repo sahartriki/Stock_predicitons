@@ -32,3 +32,39 @@ This repository contains a Stock Prediction application built with Python, Strea
 1. Clone the repository:
    ```bash
    git clone https://github.com/sahartriki/Stock_predictions.git
+   ```
+
+## Usage
+Make sure you have the necessary data files (e.g., historical stock data) in the appropriate directory if required by the app.
+
+## Running the Streamlit App
+
+To run the Streamlit application, follow these steps:
+
+1. **Navigate to the Project Directory**
+   Make sure you are in the root directory of the project where your `app.py` file (or the Streamlit app file) is located.
+
+2. **Run the Streamlit App**
+   Use the following command to start the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+   Replace `app.py` with the actual name of your Streamlit application file if it's different.
+
+3. **Access the App in Your Browser**
+   After running the command, Streamlit will launch a local server. You can access the app by opening your browser and navigating to:
+   ```
+   http://localhost:8501
+   ```
+
+   The app will open automatically in your browser, or you can copy and paste the URL manually.
+
+4. **Interacting with the App**
+   - Use the interface to select the stock you want to analyze.
+   - View visualizations of historical stock data and forecasted prices based on the LSTM model.
+   - Adjust any parameters or settings available to fine-tune your analysis.
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+
