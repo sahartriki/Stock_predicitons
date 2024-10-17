@@ -33,6 +33,21 @@ This repository contains a Stock Prediction application built with Python, Strea
    ```bash
    git clone https://github.com/sahartriki/Stock_predictions.git
    ```
+2. Change into the project directory:
+   ```bash
+   cd Stock_predictions
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 Make sure you have the necessary data files (e.g., historical stock data) in the appropriate directory if required by the app.
